@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}">
-<head>
-    @include ('layouts.partials._head')
-</head>
-<body>
-    <div id="app">
-       @yield('content') 
-    </div>
-
-    @include('layouts.partials._scripts')
-</body>
+<html lang="{{ config('app.locale') }}">
+    <head>
+        @include ('layouts.partials._head')
+    </head>
+    <body>
+        @yield('content')
+    </body>
 </html>

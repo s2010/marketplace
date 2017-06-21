@@ -11,9 +11,7 @@
                 <a href="{{ route('login') }}" class="nav-item">
                     Your account
                 </a>
-                <a href="{{ route('login') }}" class="nav-item"
-                onclick="event.preventDefault();
-                document.getElementById('logout-form').submit();">
+                <a href="#" class="nav-item" onclick="event.preventDefault(); document.getElementById('logout').submit();">
                     Sign out
                 </a>
             @else    
