@@ -8,7 +8,7 @@
 
         <div class="nav-right nav-menu">
             @if(auth()->check())
-                <a href="{{ route('login') }}" class="nav-item">
+                <a href="{{ route('account') }}" class="nav-item">
                     Your account
                 </a>
                 <a href="#" class="nav-item" onclick="event.preventDefault(); document.getElementById('logout').submit();">
